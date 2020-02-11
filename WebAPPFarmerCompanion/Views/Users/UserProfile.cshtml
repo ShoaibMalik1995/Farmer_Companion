@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "User Profile";
+    Layout = "~/Views/Shared/_AdminLayoutPage.cshtml";
+}
+
+@{
+    var UserProfile = ViewBag.UserProfile;
+}
+<div id="wrapper">
+    <div id="content-wrapper">
+        <div class="container-fluid">
+            <!-- Breadcrumbs-->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active">
+                    <a href="/Farmer/Index"><b>Dashboard</b></a>
+                </li>
+                <li class="breadcrumb-item active">User Profile</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <h2>User Profile</h2>
+    <table class="table table-striped">
+        <tbody>
+            <tr>
+                <td><b>User Id</b></td>
+                <td>@UserProfile.Id</td>
+            </tr>
+            <tr>
+                <td><b>User Name</b></td>
+                <td>@UserProfile.UserName</td>
+            </tr>
+            <tr>
+                <td><b>Email</b></td>
+                <td>@UserProfile.Email</td>
+            </tr>
+            <tr>
+                <td><b>Industry</b></td>
+                <td>@UserProfile.Industry</td>
+            </tr>
+            <tr>
+                <td><b>Location</b></td>
+                <td>@UserProfile.Location</td>
+            </tr>
+            <tr>
+                <td><b>Passowrd</b></td>
+                <td>@UserProfile.Password</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+@section myscript{
+    <script type="text/javascript">
+        $(function () {
+
+        });
+    </script>
+}
+

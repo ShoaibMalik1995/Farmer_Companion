@@ -1,0 +1,60 @@
+﻿@using WebAPPFarmerCompanion.Models.FarmerModel
+@model IEnumerable<FarmerSurveyModel>
+
+@{
+    ViewBag.Title = "Recommended Steps";
+    Layout = "~/Views/Shared/_AdminLayoutPage.cshtml";
+}
+
+@{
+    int counter = 0;
+}
+
+<div id="wrapper">
+    <div id="content-wrapper">
+        <div class="container-fluid">
+            <!-- Breadcrumbs-->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active">
+                    <a href="/Farmer/Index"><b>Dashboard</b></a>
+                </li>
+                <li class="breadcrumb-item active">Recommended Steps</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<h2>Recommendations</h2>
+
+<table class="table table-bordered table-hover table-responsive">
+    <thead>
+        <tr class="bg-primary">
+            <th class="col-lg-1">SurveyDate</th>
+            <th class="col-lg-3">Answer QA</th>
+            <th class="col-lg-3">Answer QB</th>
+            <th class="col-lg-3">Answer QC</th>
+            <th class="col-lg-2">Recommendtions</th>
+        </tr>
+    </thead>
+    <tbody id="tablebody">
+        @foreach (var m in Model)
+        {
+            <tr>
+                <td class="col-lg-1">@m.Survey_Date</td>
+                <td class="col-lg-3">@m.Answer_QA</td>
+                <td class="col-lg-3">@m.Answer_QB</td>
+                <td class="col-lg-3">@m.Answer_QC</td>
+                <td class="col-lg-2">@m.Recommendation</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section myscript{
+    <script type="text/javascript">
+        $(function () {
+
+        });
+    </script>
+}
+

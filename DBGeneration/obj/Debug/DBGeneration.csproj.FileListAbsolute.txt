@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\Software Engineering\DBGeneration\bin\Debug\DBGeneration.exe.config
+C:\Users\User\Desktop\Software Engineering\DBGeneration\bin\Debug\DBGeneration.exe
+C:\Users\User\Desktop\Software Engineering\DBGeneration\bin\Debug\DBGeneration.pdb
+C:\Users\User\Desktop\Software Engineering\DBGeneration\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Software Engineering\DBGeneration\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Software Engineering\DBGeneration\bin\Debug\FarmerCompanionDBContext.exe
+C:\Users\User\Desktop\Software Engineering\DBGeneration\bin\Debug\FarmerCompanionDBContext.pdb
+C:\Users\User\Desktop\Software Engineering\DBGeneration\bin\Debug\FarmerCompanionDBContext.exe.config
+C:\Users\User\Desktop\Software Engineering\DBGeneration\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Software Engineering\DBGeneration\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Software Engineering\DBGeneration\obj\Debug\DBGeneration.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Software Engineering\DBGeneration\obj\Debug\DBGeneration.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Software Engineering\DBGeneration\obj\Debug\DBGeneration.exe
+C:\Users\User\Desktop\Software Engineering\DBGeneration\obj\Debug\DBGeneration.pdb

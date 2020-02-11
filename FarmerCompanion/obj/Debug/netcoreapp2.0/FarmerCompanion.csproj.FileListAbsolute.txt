@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\Software Engineering\FarmerCompanion\bin\Debug\netcoreapp2.0\FarmerCompanion.deps.json
+C:\Users\User\Desktop\Software Engineering\FarmerCompanion\bin\Debug\netcoreapp2.0\FarmerCompanion.dll
+C:\Users\User\Desktop\Software Engineering\FarmerCompanion\obj\Debug\netcoreapp2.0\FarmerCompanion.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Software Engineering\FarmerCompanion\obj\Debug\netcoreapp2.0\FarmerCompanion.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Software Engineering\FarmerCompanion\obj\Debug\netcoreapp2.0\FarmerCompanion.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Software Engineering\FarmerCompanion\obj\Debug\netcoreapp2.0\FarmerCompanion.AssemblyInfo.cs

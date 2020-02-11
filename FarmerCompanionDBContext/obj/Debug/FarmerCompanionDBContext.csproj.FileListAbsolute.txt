@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Software Engineering\FarmerCompanionDBContext\bin\Debug\FarmerCompanionDBContext.exe.config
+C:\Users\User\Desktop\Software Engineering\FarmerCompanionDBContext\bin\Debug\FarmerCompanionDBContext.exe
+C:\Users\User\Desktop\Software Engineering\FarmerCompanionDBContext\bin\Debug\FarmerCompanionDBContext.pdb
+C:\Users\User\Desktop\Software Engineering\FarmerCompanionDBContext\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Software Engineering\FarmerCompanionDBContext\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Software Engineering\FarmerCompanionDBContext\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Software Engineering\FarmerCompanionDBContext\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Software Engineering\FarmerCompanionDBContext\obj\Debug\FarmerCompanionDBContext.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Software Engineering\FarmerCompanionDBContext\obj\Debug\FarmerCompanionDBContext.exe
+C:\Users\User\Desktop\Software Engineering\FarmerCompanionDBContext\obj\Debug\FarmerCompanionDBContext.pdb
+C:\Users\User\Desktop\Software Engineering\FarmerCompanionDBContext\obj\Debug\FarmerCompanionDBContext.csprojResolveAssemblyReference.cache

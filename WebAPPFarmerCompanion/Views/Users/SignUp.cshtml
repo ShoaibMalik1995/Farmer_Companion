@@ -1,0 +1,84 @@
+﻿@using WebAPPFarmerCompanion.Models;
+
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    ViewBag.Title = "Register";
+    AlertModel alertMessage = TempData["AlertMessage"] as AlertModel;
+}
+
+@if (alertMessage != null)
+{
+    @Html.Partial("~/Views/Shared/_AlertView.cshtml", alertMessage);
+}
+
+@using (Html.BeginForm("SignUp", "Users", FormMethod.Post, new { id = "signupform" }))
+{
+
+    <div class="form-group">
+        <div class="input-group has-feedback">
+            <span class="input-group-addon label-success" style="background-color:aliceblue"><span class="glyphicon glyphicon-user"></span></span>
+            @Html.TextBox("UserName", null, new { placeholder = "Enter User Name", @class = "form-control" })
+            <span class="form-control-feedback"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="input-group has-feedback">
+            <span class="input-group-addon label-success" style="background-color:aliceblue"><span class="glyphicon glyphicon-user"></span></span>
+            @Html.TextBox("Email", null, new { placeholder = "Email", @class = "form-control" })
+            <span class="form-control-feedback"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="input-group has-feedback">
+            <span class="input-group-addon label-success" style="background-color:aliceblue"><span class="glyphicon glyphicon-wrench"></span></span>
+            @Html.TextBox("Industry", null, new { placeholder = "Farmer Industry", @class = "form-control" })
+            <span class="form-control-feedback"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="input-group has-feedback">
+            <span class="input-group-addon label-success" style="background-color:aliceblue"><span class="glyphicon glyphicon-map-marker"></span></span>
+            @Html.TextBox("Location", null, new { placeholder = "Farmer Location", @class = "form-control" })
+            <span class="form-control-feedback"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="input-group has-feedback">
+            <span class="input-group-addon label-success" style="background-color:aliceblue"><span class="glyphicon glyphicon-pencil"></span></span>
+            @Html.Password("Password", null, new { placeholder = "Set Your Password", @class = "form-control" })
+            <span class="form-control-feedback"></span>
+        </div>
+    </div>
+
+    <div class="form-group" style="text-align:center">
+        <button type="submit" class="btn btn-info btn-group-lg"><span class="glyphicon glyphicon-floppy-saved"></span> Save</button>
+    </div>
+
+}
+
+@section modalfooter{
+    <div>
+        <small class="pull-right">
+            <a href="/users/login"><span class="glyphicon glyphicon-log-in"></span> Login</a> | <a href="/users/RecoverPassword"><span class="glyphicon glyphicon-question-sign"></span> Forget Password</a>
+        </small>
+        <div class="clearfix"></div>
+    </div>
+}
+
+@section myScript{
+    <script type="text/javascript">
+        $(function () {
+            $(".alert").fadeTo(5000, 1).fadeOut(1000);
+            clearform();
+        });
+
+        function clearform() {
+            $('TextBox').text("");
+            $('Password').text("");
+        }
+    </script>
+}
